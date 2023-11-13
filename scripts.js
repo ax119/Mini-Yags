@@ -48,7 +48,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"xwZCqwuP3AF7Na9V","label":"frequent","bookmarks":[{"id":"5CT1n2kmLvLWjQl3","label":"MangaDex","url":"https://mangadex.org/titles/follows"},{"id":"ny4whbPVCLBvfi0s","label":"Mosfet","url":"https://mosfet.net"}]},{"label":"views","bookmarks":[{"label":"Invidious","url":"https://invidious.asir.dev/feed/subscriptions"},{"label":"Twitch","url":"https://twitch.tv"}]},{"id":"4PqRmprt1DKU7GmI","label":"sources","bookmarks":[{"id":"ZyHQWqXgtJSY0NEB","label":"AUR","url":"https://aur.archlinux.org/"},{"id":"eTsahDlHakwB0fwA","label":"ProtonDB","url":"https://protondb.net"},{"id":"gyn7m1kvJ13Qb4fW","label":"r/unixporn","url":"https://reddit.com/r/unixporn/"},{"id":"QFjWYLVfedVMwE92","label":"New bookmark","url":""}], }]
+const bookmarks = [{"id":"xwZCqwuP3AF7Na9V","label":"frequent","bookmarks":[{"id":"5CT1n2kmLvLWjQl3","label":"MangaDex","url":"https://mangadex.org/titles/follows"},{"id":"ny4whbPVCLBvfi0s","label":"Mosfet","url":"https://mosfet.net"}]},{"label":"views","bookmarks":[{"label":"Invidious","url":"https://invidious.asir.dev/feed/subscriptions"},{"label":"Twitch","url":"https://twitch.tv"}]},{"id":"4PqRmprt1DKU7GmI","label":"sources","bookmarks":[{"id":"ZyHQWqXgtJSY0NEB","label":"AUR","url":"https://aur.archlinux.org/"},{"id":"eTsahDlHakwB0fwA","label":"ProtonDB","url":"https://www.protondb.com/"},{"id":"gyn7m1kvJ13Qb4fW","label":"r/unixporn","url":"https://reddit.com/r/unixporn/"},{"id":"QFjWYLVfedVMwE92","label":"New bookmark","url":""}], }]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
